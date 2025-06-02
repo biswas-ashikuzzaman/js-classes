@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class classesName {
+            constructor (cname,cage,c_phone) {
+                this.name=cname;
+                this.age=cage;
+                this.phone=c_phone;
+            }
+            show () {
+                document.write("My name is " + this.name + "and my age is "+ this.age + "<br>")   
+            }
+        }
+        const wdpf = new classesName ("Sifat ",25,1288603);
+
+        const wdpf1 = new classesName ("Ashik ",25,1288603);
+        wdpf.show();
+        wdpf1.show();
+    </script>
+</body>
+</html>
