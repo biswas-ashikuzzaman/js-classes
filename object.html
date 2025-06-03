@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <script>
+        class personalInfo {
+            constructor (pname, page, paddress,p_phone, p_email) {
+                this.name= pname;
+                this.age = page;
+                this.address = paddress;
+                this.phone = p_phone;
+                this.email = p_email;
+            }
+            show() {
+                document.write("My name is " + this.name + " "+ "and my age is" + this.age + " "+ ",my phone number is "+ this.phone + " " + "and my Email is "+ this.email+ "<br>" )
+            }
+        }
+        const p1 = new personalInfo("Ashik",25,"Jashore",01644811442,"biswasashikuzaman@gmail.com")
+        const p2 = new personalInfo("Rafia",25,"Jashore",01644811442,"biswasashikuzaman@gmail.com")
+        const p3 = new personalInfo("Sifat",25,"Jashore",01644811442,"biswasashikuzaman@gmail.com")
+        const p4 = new personalInfo("Goni",25,"Jashore",01644811442,"biswasashikuzaman@gmail.com")
+        p1.show();
+        p2.show();
+        p3.show();
+        p4.show();
+    </script>
+</body>
+</html>
