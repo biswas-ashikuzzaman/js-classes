@@ -15,8 +15,20 @@
                 this.order=ord;
                 this.family=family
             }
-            Mammalia () {
+            mammalia () {
                 return "Warm-blooded (endothermic)"
+            }
+        }
+        const man = new Homo_sapiens("Animalia (animals)","Chordata (animals with a spinal cord)","Mammalia (mammals)","Primates", "Hominidae (great apes)",);
+        console.log(man);
+        document.write(man.Kingdom);
+    //    document.write (man.mammalia ());
+        
+        class Birds extends Homo_sapiens {
+            constructor(sifat,goni,king,phy,family) {
+                super(phy,clas);
+                this.sifat = sifat;
+                this.goni=goni;
             }
         }
     </script>
